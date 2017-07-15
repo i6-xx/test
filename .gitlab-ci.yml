@@ -1,7 +1,10 @@
 build:
   stage: build
   script: make
-  artifacts: hello
+  artifacts: 
+    paths:
+    - hello
+    expire_in: 1 week
 
 test:
   stage: test

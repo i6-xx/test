@@ -1,6 +1,7 @@
 build:
   stage: build
   script: make
+  artifacts: hello
 
 test:
   stage: test

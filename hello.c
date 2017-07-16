@@ -3,7 +3,7 @@
 int main()
 {
 
- printf("Hello bug  2\n");
- return 0;
+ printf("Hello bug 1.1\n");
+ return 1;
 }
 

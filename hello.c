@@ -4,6 +4,6 @@ int main()
 {
 
  printf("Hello bug 3.1\n");
- return 0;
+ return 1;
 }
 

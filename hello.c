@@ -3,7 +3,7 @@
 int main()
 {
 
- printf("Hello bug 3.1 - remove this\n");
+ printf("Hello bug fixed\n");
  return 0;
 }
 

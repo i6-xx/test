@@ -24,7 +24,7 @@ int main()
 
 
 
- printf("Version %s\n",VERSION);
+ printf("Version %s git %s\n",VERSION,gitversion);
  printf("Hello bug fixed\n");
  printf("Start new feature\n");
 

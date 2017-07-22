@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "version.h"
 
 typedef struct 
 {
@@ -7,11 +8,17 @@ typedef struct
 }mys;
 int main()
 {
+<<<<<<< HEAD
     
 
  mys ms;
  ms.a = 1;
- printf("Hello bug 3.2\n");
+
+
+
+ printf("Version %s\n",VERSION);
+ printf("Hello bug fixed\n");
+ printf("Start new feature\n");
 
  return 0;
 }

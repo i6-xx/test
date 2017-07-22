@@ -1,14 +1,18 @@
 #include "stdio.h"
 #include "version.h"
+=======
+extern char *gitversion;
+
 
 typedef struct 
 {
  int a;
 
 }mys;
+
 int main()
 {
-<<<<<<< HEAD
+
     
 
  mys ms;

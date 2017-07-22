@@ -1,6 +1,9 @@
 #include "stdio.h"
 #include "version.h"
-=======
+
+extern char *gitversion;
+
+
 extern char *gitversion;
 
 
@@ -12,6 +15,7 @@ typedef struct
 
 int main()
 {
+
 
     
 

@@ -1,4 +1,5 @@
 #include "stdio.h"
+extern char *gitversion;
 
 typedef struct 
 {

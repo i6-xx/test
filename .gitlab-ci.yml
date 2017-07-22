@@ -6,8 +6,17 @@ build:
     - hello
     expire_in: 1 week
 
-test:
+test1:
   stage: test
   script: ./hello
 
 
+test2:
+  stage: test
+  script: ./hello
+test3:
+  stage: test
+  script: ./hello
+test4:
+  stage: test
+  script: ./hello

@@ -1,13 +1,23 @@
 image: nvidia/cuda
 build:
   stage: build
-  script: nvcc add.cu -o add_cuda
+  script: make
   artifacts: 
     paths:
-    - add_cuda
+    - hello
     expire_in: 1 week
 
 test1:
   stage: test
-  script: ./add_cuda
+  script: ./hello
 
+
+test2:
+  stage: test
+  script: ./hello
+test3:
+  stage: test
+  script: ./hello
+test4:
+  stage: test
+  script: ./hello

@@ -1,3 +1,4 @@
+image: nvidia/cuda
 build:
   stage: build
   script: make

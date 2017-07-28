@@ -4,7 +4,7 @@ CC_FLAGS = -wAll
  
 # File names
 EXEC = hello
-SOURCES = $(hello.c gitversion.c)
+SOURCES = hello.c gitversion.c
 OBJECTS = $(SOURCES:.c=.o)
  
 # Main target

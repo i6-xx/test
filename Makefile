@@ -1,10 +1,10 @@
 # Declaration of variables
-CC = g++
+CC = gcc
 CC_FLAGS = -w
  
 # File names
 EXEC = hello
-SOURCES = $(wildcard *.c)
+SOURCES = $(hello.c gitversion.c)
 OBJECTS = $(SOURCES:.c=.o)
  
 # Main target

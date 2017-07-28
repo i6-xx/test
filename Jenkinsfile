@@ -1,21 +1,11 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
+node {
+   
+   stage('Build') {
+      git 'https://github.com/i6-xx/test'
+      sh 'make'
+   
+   }
+   stage('Run') {
+      sh './hello'
+   }
 }

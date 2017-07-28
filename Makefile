@@ -1,10 +1,10 @@
 # Declaration of variables
-CC = g++
+CC = gcc
 CC_FLAGS = -w
  
 # File names
 EXEC = hello
-SOURCES = $(wildcard *.c)
+SOURCES = hello.c gitversion.c
 OBJECTS = $(SOURCES:.c=.o)
  
 # Main target
@@ -12,7 +12,7 @@ $(EXEC): $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(EXEC)
  
 # To obtain object files
-%.o: %.cpp
+%.o: %.c
 	$(CC) -c $(CC_FLAGS) $< -o $@
  
 # To remove generated files

@@ -1,7 +1,8 @@
 node {
    
    stage('Build') {
-      git 'https://github.com/i6-xx/test'
+      checkout scm
+      sh 'cat Makefile'
       sh 'make'
    
    }

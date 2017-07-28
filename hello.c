@@ -28,6 +28,6 @@ int main()
  printf("Hello bug fixed\n");
  printf("Start new feature\n");
 
- return 1;
+ return    0;
 }
 

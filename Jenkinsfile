@@ -1,6 +1,7 @@
 node {
    
    stage('Build') {
+      checkout scm
       sh 'cat Makefile'
       sh 'make'
    

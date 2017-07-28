@@ -20,7 +20,7 @@ int main()
     
 
  mys ms;
- ms.a = 1;
+ ms.a = 2;
 
 
 

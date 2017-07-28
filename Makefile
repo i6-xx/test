@@ -1,6 +1,6 @@
 # Declaration of variables
 CC = gcc
-CC_FLAGS = -w
+CC_FLAGS = -wAll
  
 # File names
 EXEC = hello
